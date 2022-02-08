@@ -165,6 +165,16 @@ details[open] > summary:after {
     transform: rotate(90deg);
 }
 
+details[open] > summary {
+    color: #7180f1;
+    text-shadow:
+       2px  2px 0 rgb(255, 255, 255),
+      -1px -1px 0 rgb(255, 255, 255),  
+       1px -1px 0 rgb(255, 255, 255),
+      -1px  1px 0 rgb(255, 255, 255),
+       1px  1px 0 rgb(255, 255, 255);
+}
+
 details {
     border: 1px rgb(255, 255, 255);
 }
