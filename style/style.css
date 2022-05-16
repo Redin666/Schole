@@ -69,6 +69,10 @@ body {
     margin: 0px auto;
 }
 
+#dote {
+    display:none;
+}
+
 .icon > a {
     display: flex;
     justify-content: space-between;
